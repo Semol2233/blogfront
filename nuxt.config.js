@@ -78,7 +78,7 @@ export default {
    */
   axios: {},
   sitemap: {
-    hostname: "http://test.resultonlinebd.com",
+    hostname: "http://192.168.0.188",
     gzip: true,
     xmlNs: 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
     //   routes: async () => {
@@ -97,10 +97,10 @@ export default {
     extend(config, ctx) {}
   },
   env: {
-    baseUrl: process.env.BASE_URL || `http://cdn.resultonlinebd.com`,
-    channelUrl: `http://cdn.resultonlinebd.com/channel_Dataapi?search=`,
-    channelPagination: `http://cdn.resultonlinebd.com/channel_Dataapi?page=`,
-    channelMainTag: `http://cdn.resultonlinebd.com/tagmanager?search=`
+    baseUrl: process.env.BASE_URL || `http://192.168.0.188`,
+    channelUrl: `http://192.168.0.188/channel_Dataapi?search=`,
+    channelPagination: `http://192.168.0.188/channel_Dataapi?page=`,
+    channelMainTag: `http://192.168.0.188/tagmanager?search=`
   },
   // server: {
   //   host: "0"
